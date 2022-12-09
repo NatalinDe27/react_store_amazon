@@ -1,0 +1,40 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+.product {
+    max-width: 20%;
+    border: 1px solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.img_products {
+    align-content: center;
+    max-width: 200px;
+    max-height: 300px;
+    margin: auto;
+    display: flex;
+    transform: scale(0.7);
+}
+
+
+img {
+    max-width: 100% !important;
+    height: auto !important;
+
+}
+.details {
+padding: 15px;
+
+}
+
+.details h3{
+    padding-bottom: 10px;
+    font-size: 16px;
+
+}
